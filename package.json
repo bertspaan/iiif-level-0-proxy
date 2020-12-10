@@ -1,0 +1,19 @@
+{
+  "name": "iiif-level-0-proxy",
+  "version": "1.0.0",
+  "description": "Create a IIIF image from any image!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bert Spaan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "base64url": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-cache": "^5.1.2",
+    "sharp": "^0.26.2"
+  }
+}
